@@ -34,3 +34,11 @@ Giỏ hàng được lưu trong `localStorage` của trình duyệt khách (ch�
 ## Công nghệ
 
 TanStack Start (`@tanstack/react-start` 1.169.4, đã vá CVE-2026-102989), React 19, Vite 8, Tailwind CSS 4, các thành phần kiểu shadcn/ui (`src/components/ui/`). Tất cả giấy phép MIT. Phiên bản được ghim trong `package.json`.
+
+## Hướng dẫn và hỗ trợ
+
+Hướng dẫn từng bước và hỗ trợ có trong skill tương ứng trên sàn https://xuongskillai.vercel.app
+
+## Ảnh và giấy phép
+
+Ảnh nhân vật Sophia Nguyễn là của Xưởng Skill AI, chỉ để minh họa — thay bằng ảnh của bạn. Xem giấy phép trong file `LICENSE`.
