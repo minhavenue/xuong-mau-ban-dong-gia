@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Màu chủ đạo: đổi các biến dưới đây để đổi diện mạo cả trang. */
+:root {
+  --background: oklch(0.99 0.005 95);
+  --foreground: oklch(0.22 0.03 265);
+  --muted: oklch(0.96 0.01 95);
+  --muted-foreground: oklch(0.5 0.03 265);
+  --border: oklch(0.9 0.01 95);
+  --primary: oklch(0.45 0.18 275);
+  --primary-foreground: oklch(0.99 0 0);
+  --ring: oklch(0.6 0.18 275);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-ring: var(--ring);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bang-truot {
+  scrollbar-width: none;
+}
+.bang-truot::-webkit-scrollbar {
+  display: none;
+}
